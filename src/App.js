@@ -46,16 +46,16 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="firstLesson">
+      <div className="lesson">
         <h1>Hola {name}</h1>
         <button onClick={handleHejjButton}>Hejj</button>
       </div>
-      <div className="secondLesson">
-        <button onClick={handleCountButtons} id="substract">-1</button>
-        <span>{count}</span>
+      <div className="lesson">
         <button onClick={handleCountButtons} id="add">+1</button>
+        <span>{count}</span>
+        <button onClick={handleCountButtons} id="substract">-1</button>
       </div>
-      <div className="thirdLesson">
+      <div className="lesson">
         <h2>Iniciar Sesión</h2>
         <label for="username">Usuario: <input type="email" id="username" name="username" value={email} onChange={handleChangeLoginInputs}/></label>
         <label for="password">Contraseña: <input type="password" id="password" name="password" value={password} onChange={handleChangeLoginInputs}/></label>

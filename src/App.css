@@ -1,4 +1,9 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
   text-align: center;
 }
 
@@ -26,6 +31,18 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.lesson {
+  height: 30vh;
+  width: 50vw;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #EEE;
+  background-color: #272727;
+  margin: 2rem;
 }
 
 @keyframes App-logo-spin {
